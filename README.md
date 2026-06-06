@@ -1,4 +1,4 @@
-# Alma & Luz — Landing Page
+# Los Arcanos — Landing Page
 ## Plan de Acción: SEO + Lanzamiento
 
 ---

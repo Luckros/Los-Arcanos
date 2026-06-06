@@ -19,7 +19,7 @@ const jost = Jost({
 
 export const metadata: Metadata = {
   // ─── SEO PRIMARIO ───
-  title: "Alma & Luz | Lecturas de Tarot y Limpiezas Energéticas en Argentina",
+  title: "Los Arcanos | Lecturas de Tarot y Limpiezas Energéticas en Argentina",
   description:
     "Lecturas de Tarot personalizadas por WhatsApp (audios) y Limpiezas Energéticas con reporte PDF. Claridad, paz y transformación real. Consultas para toda Argentina. Agendá ahora.",
   keywords: [
@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   ],
   // ─── OPEN GRAPH (para redes sociales e Instagram) ───
   openGraph: {
-    title: "Alma & Luz | Lecturas de Tarot & Limpiezas Energéticas",
+    title: "Los Arcanos | Lecturas de Tarot & Limpiezas Energéticas",
     description:
       "Claridad, paz y respuestas concretas. Lecturas de Tarot por WhatsApp y Limpiezas con PDF detallado. Consultá sin compromiso.",
-    url: "https://www.almaluz.com.ar", // ← reemplazá con tu dominio real
-    siteName: "Alma & Luz",
+    url: "https://los-arcanos-oq6u43twl-lucas-projects-d17e4578.vercel.app/", // ← reemplazá con tu dominio real
+    siteName: "Los Arcanos",
     locale: "es_AR",
     type: "website",
     images: [
@@ -48,14 +48,14 @@ export const metadata: Metadata = {
         url: "/og-image.jpg", // ← subí una imagen 1200x630px a /public
         width: 1200,
         height: 630,
-        alt: "Alma & Luz – Lecturas de Tarot y Limpiezas Energéticas",
+        alt: "Los Arcanos – Lecturas de Tarot y Limpiezas Energéticas",
       },
     ],
   },
   // ─── TWITTER/X CARD ───
   twitter: {
     card: "summary_large_image",
-    title: "Alma & Luz | Tarot & Energía",
+    title: "Los Arcanos | Tarot & Energía",
     description: "Lecturas de Tarot por WhatsApp y Limpiezas Energéticas con reporte PDF. Argentina.",
     images: ["/og-image.jpg"],
   },
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   alternates: {
-    canonical: "https://www.almaluz.com.ar", // ← tu dominio
+    canonical: "https://los-arcanos-oq6u43twl-lucas-projects-d17e4578.vercel.app/", // ← tu dominio
   },
 };
 
@@ -76,11 +76,11 @@ const schemaMarkup = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.almaluz.com.ar/#business",
-      name: "Alma & Luz",
+      "@id": "https://los-arcanos-oq6u43twl-lucas-projects-d17e4578.vercel.app/#business",
+      name: "Los Arcanos",
       description:
         "Servicios de Lecturas de Tarot personalizadas y Limpiezas Energéticas. Consultas online para toda Argentina vía WhatsApp.",
-      url: "https://www.almaluz.com.ar",
+      url: "https://los-arcanos-oq6u43twl-lucas-projects-d17e4578.vercel.app/",
       telephone: "+541133049156",
       areaServed: {
         "@type": "Country",
@@ -100,7 +100,7 @@ const schemaMarkup = {
       name: "Lectura de Tarot Personalizada",
       description:
         "Lectura de Tarot profunda y personalizada entregada en audios por WhatsApp. Sin videollamada. Para consultas de amor, trabajo, propósito y más.",
-      provider: { "@id": "https://www.almaluz.com.ar/#business" },
+      provider: { "@id": "https://los-arcanos-oq6u43twl-lucas-projects-d17e4578.vercel.app/#business" },
       areaServed: "Argentina",
       availableChannel: {
         "@type": "ServiceChannel",
@@ -113,7 +113,7 @@ const schemaMarkup = {
       name: "Limpieza Energética con Reporte PDF",
       description:
         "Trabajo energético completo con diagnóstico de chakras, corte de lazos y liberación de bloqueos. Incluye reporte PDF detallado con recomendaciones personalizadas.",
-      provider: { "@id": "https://www.almaluz.com.ar/#business" },
+      provider: { "@id": "https://los-arcanos-oq6u43twl-lucas-projects-d17e4578.vercel.app/#business" },
       areaServed: "Argentina",
       availableChannel: {
         "@type": "ServiceChannel",
