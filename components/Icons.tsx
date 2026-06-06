@@ -35,9 +35,7 @@ export function Footer() {
   return (
     <footer className="text-center py-8 px-6" style={{ background: "#151f2c" }}>
       <span className="font-serif text-base italic block mb-2"
-        style={{ color: "var(--rose)" }}>
-        Los Arcanos
-      </span>
+        style={{ color: "var(--rose)" }}>Los Arcanos</span>
       <p className="font-jost text-[11px] tracking-[1px]"
         style={{ color: "rgba(194,207,244,0.18)" }}>
         © {new Date().getFullYear()} · Lecturas de Tarot &amp; Limpiezas Energéticas
